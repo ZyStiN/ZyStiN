@@ -1,0 +1,18 @@
+#top { 
+    text-align: center;
+    color: white;
+}
+
+#bild {  
+ margin-top: 12px;
+ margin-bottom: 12px; 
+text-align: center;
+}
+
+#rick a:hover { 
+color: rgb(8, 255, 49)
+}
+
+#credits {
+margin-top: 220px;
+}
