@@ -1,0 +1,35 @@
+var achievement = {
+    name: [
+        "Erster Euro",
+    ],
+    description: [
+        "Klicke das erste mal auf den Euro",
+    ],
+    type: [
+        "click",
+    ],
+    requirement: [
+        1,
+    ],
+    objectIndex: [
+        0,
+    ],
+    awarded: [false, ]
+
+    earn: function(index) {
+        this.awarded(index) = true;
+    }
+};
+
+updateAchievements: function() {
+    document.getElementById("achievementContainer").innerHTML = "";
+    for (i = 0; i < achivement.name.length; i++) {
+        if (achievement.awarded[i]) {
+            document.getElementById("achievementContainer").innerHTML += '<img src="images/'+achievement.image[i]+
+        }
+    }
+
+}
+
+
+

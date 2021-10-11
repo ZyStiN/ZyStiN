@@ -1,18 +1,140 @@
-#top { 
+#all {
     text-align: center;
     color: white;
+    font-size: larger;
+    font-weight: bold;
 }
 
-#bild {  
- margin-top: 12px;
- margin-bottom: 12px; 
-text-align: center;
+#redbutton
+ {
+    margin: 16px;
+     text-align: center;
+      color: white;
+       font-size: larger;
+        font-weight: bold;
+         cursor:pointer;
 }
 
-#rick a:hover { 
-color: rgb(8, 255, 49)
+#redbutton img:hover {
+   transform: scale(1.05);
+   background-position:-128px;
 }
 
-#credits {
-margin-top: 220px;
+#redbutton img:active {
+    transform: scale(0.99);
+    background-position:-256px;
+}
+
+.texte {
+    text-align: center;
+    background-color: rgb(97, 95, 95);
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 12px;
+    
+}
+
+.shop {
+    position: absolute; top: 10px; right: 10px;
+    margin: 16px;
+    background-color: rgb(97, 95, 95);
+    display: inline-block;
+    border-radius: 10px;
+}
+
+button {
+        display:inline-block;
+        margin:20px;
+        text-decoration:none;
+        font-family:Arial;
+        font-size:16px;
+        border:1px solid #fff;
+        border-radius:15px;
+        color:#fff;
+        background-color:#A8BCD0;
+        padding:5px 15px;
+        font-weight:bold;
+        box-shadow:3px 3px 4px #8CA0B2;
+        text-shadow:1px 1px 2px #6E91B2;
+    }
+
+    button ::after button ::before {
+        display:inline-block;
+        margin: 20px;
+        text-decoration:none;
+        font-family:Arial;
+        font-size:16px;
+        border:1px solid #fff;
+        border-radius:15px;
+        color:#fff;
+        background-color:#A8BCD0;
+        padding:5px 15px;
+        font-weight:bold;
+        box-shadow:3px 3px 4px #8CA0B2;
+        text-shadow:1px 1px 2px #6E91B2;
+
+    }
+   
+
+
+    button:hover{
+        transform: scale(1.10);
+        background-color:#81abd6;
+     
+    }
+
+       button:active {
+        transform: scale(0.99);
+        color: black;
+    }
+
+    #score {
+        color: rgb(196, 196, 196);
+        font-size: x-large;
+    }
+
+    #europrosek {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    #version {
+        color: white;
+        position: absolute; bottom: 10px; left: 10px;
+    }
+  
+    #shopüberschrift {
+        font-size: larger;
+    }
+
+
+
+   #saveandload {
+       border-radius: 10px;
+       background-color:rgb(97, 95, 95);
+       display: inline-block;
+       margin: 16px;
+   
+   }
+
+   .pop
+{
+	font-weight:bold;
+	color:#fff;
+	width:200px;
+	height:20px;
+	font-size:20px;
+	text-align:center;
+}
+
+#scorepersecond {
+    color: rgb(196, 196, 196);
+   
+}
+
+#clickpower {
+    color: rgb(196, 196, 196);
+    
 }

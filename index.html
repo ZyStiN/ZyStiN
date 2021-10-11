@@ -1,24 +1,69 @@
-<!doctype>
-<html>
-    <head>
-        <title>The Dark</title>
-        <link rel="stylesheet" href="style.css">
-     </head>
-      <body bgcolor="black">
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euro Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body background="bggeld.jpg">
 
-        <div id="top">
-        <h1>The Dark Website<h1/> 
-        <div id="rick">
-            <a href="https://youtu.be/O91DT1pR1ewhttps://youtu.be/O91DT1pR1ew">Click here</a>
-        <div id="bild">
-         <img src="bild.jpg">
+<div class="pop"> </div>
+
+
+    <div id="all">
+   <div class="texte">
+        
+            <div id="europrosek">
+        <span id="scorepersecond">0</span>  Euro pro Sekunde
+        <br>
+      <div id="europroclick">
+        <span id="clickpower">1</span>  Euro pro Klick
+    </div>
+</div>
+</div>
+      <div class="mitte">
+        <div id="redbutton">
+            <img src="euro.png" onclick="addToScore(clickpower)">
         </div>
+        
+        </div>
+        
 
-<div id="credits">
-<h6>
-   <em> Made by ZyStiN</em>
-</h6>
+   <div class="texte">
+    
+  <p>
+Du hast <br><span id="score">0</span> <br> Euro</p>
+</div>
+  
+<div class="mitte">
+  <div id="saveandload">
+  <button onclick="savedata()">Speichern</button>
+  <br>
+
+  <button onclick="loaddata()">Laden</button>
+  </div>
+</div>
+<div class="shop">
+   <div class="texte"> <div id="shopüberschrift"><p>Shop</p></div> </div>
+   <br>
+   <button onclick="buyMultiplikator()">Klickkraft verdoppeln <br> Preis: <span id="multiplikatorcost">100</span>€ <br> </button>
+   <br>
+   <button onclick="buyCursor()">Auto Clicker <br>  Preis: <span id="cursorcost">15</span>€ <br> Level: <span id="cursors">0</span></button>
+   <br>
+   <button onclick="buyauto()">Geldautomat <br> Preis: <span id="autocost">1.000</span>€ <br> Level: <span id="autos">0</span></button>
+   <br>
+   <button onclick="buybank()">Bank <br> Preis: <span id="bankcost">10.000</span>€ <br> Level: <span id="banks">0</span></button>
+<br>
+   <button onclick="buydruck()">Gelddruckerei <br> Preis: <span id="druckcost">100.000</span>€ <br> Level: <span id="drucks">0</span></button>
 </div>
 
-     <body/>
-<html/>
+</div> 
+<div id="version">
+    Version 1.0.3
+</div>
+
+</body>
+</html>
