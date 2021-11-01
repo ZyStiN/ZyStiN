@@ -12,7 +12,7 @@
     <title>Euro Clicker</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="euro.png">
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main2.js"></script>
 
     <style>
       @keyframes flyaway {
@@ -110,9 +110,11 @@ window.addEventListener("load", function(){
 
    <div class="texte">
     
-  <p  >
+
+  <p>
 Du hast <br><span id="score">0</span> <br> Euro</p>
 </div>
+
 
 
 
@@ -129,15 +131,15 @@ Du hast <br><span id="score">0</span> <br> Euro</p>
    <br>
    <button id="buyclickpowerbutton" onclick="buyMultiplikator()">Klickkraft verdoppeln <br> Preis: <span id="multiplikatorcost">100</span>€ <br>     </button>
    <br>
-   <button id="buycursorbutton" onclick="buyCursor()">Auto Clicker <br>  Preis: <span id="cursorcost">15</span>€ <br> Im Besitz: <span id="cursors">0</span>/500</button>
+   <button id="buycursorbutton" onclick="buyCursor()">Auto Clicker <br>  Preis: <span id="cursorcost">15</span>€ <br> Im Besitz: <span id="cursors">0</span></button>
    <br>
-   <button id="buyschweinbutton" onclick="buyschwein()">Sparschwein <br>  Preis: <span id="schweincost">1.000</span>€ <br> Im Besitz: <span id="schweins">0</span>/250</button>
+   <button id="buyschweinbutton" onclick="buyschwein()">Sparschwein <br>  Preis: <span id="schweincost">1.000</span>€ <br> Im Besitz: <span id="schweins">0</span></button>
    <br>
-   <button id="buyautobutton" onclick="buyauto()">Geldautomat <br> Preis: <span id="autocost">10.000</span>€ <br> Im Besitz: <span id="autos">0</span>/100</button>
+   <button id="buyautobutton" onclick="buyauto()">Geldautomat <br> Preis: <span id="autocost">10.000</span>€ <br> Im Besitz: <span id="autos">0</span></button>
    <br>
-   <button id="buybankbutton" onclick="buybank()">Bank <br> Preis: <span id="bankcost">100.000</span>€ <br> Im Besitz: <span id="banks">0</span>/50</button>
+   <button id="buybankbutton" onclick="buybank()">Bank <br> Preis: <span id="bankcost">100.000</span>€ <br> Im Besitz: <span id="banks">0</span></button>
 <br>
-   <button id="buydruckbutton" onclick="buydruck()">Gelddruckerei <br> Preis: <span id="druckcost">1.000.000</span>€ <br> Im Besitz: <span id="drucks">0</span>/25</button>
+   <button id="buydruckbutton" onclick="buydruck()">Gelddruckerei <br> Preis: <span id="druckcost">1.000.000</span>€ <br> Im Besitz: <span id="drucks">0</span></button>
 </div>
 <br>
 <br>
@@ -167,10 +169,10 @@ Du hast <br><span id="score">0</span> <br> Euro</p>
      <div  id="speichernüberschrift"> <p>Einstellungen</p></div>
      <button id="soundbutton"  onclick="mut()" type="checkbox" checked>Sounds: <span id="soundonoroff" style="color: limegreen;">ON</span></button>
       <br>
-    <button  id="modusbutton" onclick="switchtoendlos()">Endlos Modus</button>
+<button id="modusbutton" onclick="switchtostory ()">Story Modus</button>    
 
      <br>
-      <button  id="resetbutton" onclick="resetdata()">Spiel <br> Zurücksetzen</button>
+     <button  id="resetbutton" onclick="resetdata()">Spiel <br> Zurücksetzen</button>
 
     </div>
     </div>
